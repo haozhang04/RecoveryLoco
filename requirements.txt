@@ -1,0 +1,17 @@
+# Runtime baseline: Python 3.8.20 and PyTorch with CUDA 12.1.
+# Isaac Gym Preview 4 is not available on PyPI; install it manually as described in README.md.
+# tools/record_stairs_recovery_video.py also requires the ffmpeg system command.
+# tools/logs_compress.py also requires the tar and zstd system commands.
+
+imageio==2.35.1
+isaacgym==1.0rc4
+matplotlib==3.7.5
+ninja==1.13.0
+numpy==1.23.5
+pillow==10.4.0
+PyYAML==6.0.3
+scipy==1.10.1
+tensorboard==2.14.0
+tensorboard-data-server==0.7.2
+torch==2.4.1
+torchvision==0.19.1
